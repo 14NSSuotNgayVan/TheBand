@@ -1,0 +1,85 @@
+@media (max-width:740px){
+    .navbar{
+        display:none;
+        width: 50%;
+        height: 100vh;
+        background-color: rgba(0,0,0,0.7);
+    }
+    .navbarOpen{
+        display:block;
+    }
+    .exits{
+        display:block;
+    }
+    .navbar::after{
+        content: "";
+    }
+    .navbar-item{
+        display:block;
+        width: 100%;
+    }
+    .subnavbar-list{
+        position: absolute;
+        top: 100%;
+        width: 100%;
+    }
+    .subnavbar-item{
+        background-color: rgba(255,255,255,0.8);
+    }
+    .subnavbar-item:hover{
+        background-color:rgba(0,0,0,0.5);
+        color:white;
+    }
+    .subnavbar-list:hover .navbar-item-hover{
+        background-color: rgba(255,255,255,0.8);
+    }
+    .menu{
+        font-size:30px;
+        color:white;
+        /* display:flex;
+        align-items:center;
+        justify-content:center; */
+    }
+    .menuClose{
+        display:none;
+    }
+    .menu:hover{
+        background-color:#ccc;
+    }
+    .menu>i{
+        padding:5px;
+    }
+    .slider-content{
+        display:none;
+    }
+
+    .slider-btn{
+        width: 30px;
+        height: 30px;
+        font-size:30px;
+    }
+    .ticket-booking{
+        display: block;
+    }
+    .ticket-gallery{
+        width: 85%;
+        margin: auto;
+    }
+    .contact-main-content{
+        display: block;
+    }
+    .information{
+        width: 100%;
+    }
+    .contact-form{
+        width: 100%;
+    }
+    .desc-content-img{
+        display: block;
+    }
+}
+@media(min-width:741px){
+    .menu{
+        display: none;
+    }
+}
