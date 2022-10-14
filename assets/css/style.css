@@ -536,11 +536,6 @@ img {
     font-family: "Lato", sans-serif;
 }
 
-@media (min-width: 993px) {
-    .modal {
-        width: 900px !important;
-    }
-}
 
 .modal {
     position: relative;
