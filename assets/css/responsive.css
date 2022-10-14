@@ -77,9 +77,17 @@
     .desc-content-img{
         display: block;
     }
+    .modal {
+        width: 80% !important;
+    }
 }
 @media(min-width:741px){
     .menu{
         display: none;
+    }
+}
+@media (min-width: 993px) {
+    .modal {
+        width: 900px !important;
     }
 }
